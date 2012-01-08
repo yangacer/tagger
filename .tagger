@@ -1,0 +1,16 @@
+# Specify document root path here. Default '.'.
+[doc-root]
+
+# Documents path [space] tagname. 
+# Document pathes are relative to the doc-root.
+[doc]
+CSCache/README.html   CSCache,README,Acer,GAISLab
+
+# Concept' relations
+[concept-rel]
+News  
+Documentation README
+Tutorial
+Demostration
+Obtain
+About Acer,GAISLab
