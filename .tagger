@@ -5,6 +5,7 @@
 # Document pathes are relative to the doc-root.
 [doc]
 CSCache/README.html   CSCache,README,Acer,GAISLab
+GRI/README.html       README,Acer,GAISLab
 
 # Concept' relations
 [concept-rel]
@@ -14,3 +15,11 @@ Tutorial
 Demostration
 Obtain
 About Acer,GAISLab
+Band score,recording
+
+# Role's relations
+[role-rel]
+Bandmate Band
+Developer Tutorial,Obtain
+* News,About
+
