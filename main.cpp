@@ -24,8 +24,7 @@ int main(int argc, char** argv)
   // test: list doc and its tag
   auto const& doc_list = store.doc_tag_map.by<doc_t>();
 
-  for(auto i = doc_list.begin(); i != doc_list.end(); ++i)
-  {
+  for(auto i = doc_list.begin(); i != doc_list.end(); ++i){
     cout<<(i->first)<<":"<<(i->second)<<"\n";
   }
 
